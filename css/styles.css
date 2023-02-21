@@ -1,0 +1,143 @@
+/* colors
+textcolor#2E2F42
+tel and mail #434455
+background: #E5E5E5;
+text in footer: #E7E9FC
+web in logocolor: #4D5AE5;
+hover #404BBF
+h2.h3 #2E2F42
+h1 white
+text #434455
+*/
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --active-color: #404bbf;
+  --primary-bg-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list,
+.works-list {
+  list-style: none;
+}
+.button {
+  font-family: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* header */
+.logo {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-link {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--active-color);
+}
+.mail,
+.tel {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.mail:hover,
+.mail:focus {
+  color: var(--active-color);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--active-color);
+}
+/* hero section */
+.heading {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.hero .button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #404bbf;
+}
+/* sections */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.features-title {
+  color: var(--title-text-color);
+}
+.team-title .title {
+  color: var(--title-text-color);
+}
+/* footer */
+.footer .link {
+  color: #f4f4fd;
+}
+.footer .logo {
+  color: #4d5ae5;
+}
+.footer .text {
+  color: #e7e9fc;
+  background-color: #2e2f42;
+}
+/* portfolio */
+.works .button {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.works .button:hover,
+.works .button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.works-title {
+  color: var(--title-text-color);
+}
+.works-list .second-side {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.works-list a {
+  text-decoration: none;
+}
