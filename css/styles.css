@@ -24,8 +24,7 @@ body {
   line-height: 1.5;
 }
 
-.list,
-.works-list {
+.list {
   list-style: none;
 }
 .button {
@@ -34,9 +33,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  cursor: pointer;
+}
+.title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-/* header */
+/* -------------------Header ---------------*/
 .logo {
   color: #4d5ae5;
   text-decoration: none;
@@ -51,64 +58,63 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-nav .link {
+.header-link {
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
-.header-nav .link:hover,
-.header-nav .link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--active-color);
 }
-.mail,
-.tel {
+.contacts-link {
   color: var(--primary-text-color);
+  font-style: normal;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
 }
-.mail:hover,
-.mail:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--active-color);
 }
-.tel:hover,
-.tel:focus {
-  color: var(--active-color);
-}
-/* hero section */
-.heading {
-  color: #ffffff;
+
+/*-------------------- hero section -------------------*/
+.hero {
   background-color: #2e2f42;
-  font-weight: 700;
+}
+.hero-title {
+  color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
 }
-.hero .button {
+.hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  cursor: pointer;
 }
-.hero .button:hover,
-.hero .button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
+
 /* sections */
-.section-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
+/* ---------Features-------- */
+.features-title {
 }
 
-.features-title {
+.features-subtitle {
   color: var(--title-text-color);
 }
-.team-title .title {
+/*-------------Work section-----------  */
+.work-title {
+}
+/* --------------Team section------------ */
+.team-title {
+}
+.team-subtitle {
   color: var(--title-text-color);
 }
 /* footer */
@@ -118,27 +124,23 @@ body {
 .footer .logo {
   color: #4d5ae5;
 }
-.footer .text {
+.footer-text {
   color: #e7e9fc;
   background-color: #2e2f42;
 }
-/* portfolio */
-.works .button {
+/* ----------------Portfolio-------------- */
+.projects-btn {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.works .button:hover,
-.works .button:focus {
+.projects-btn:hover,
+.projects-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
-.works-title {
+.projects-subtitle {
   color: var(--title-text-color);
 }
-.works-list .second-side {
-  color: #f4f4fd;
-  background-color: #2e2f42;
-}
-.works-list a {
+.projects-link {
   text-decoration: none;
 }
